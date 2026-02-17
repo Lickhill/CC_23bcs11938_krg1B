@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SumBitDifferences {
+public class sumBitDifferences {
 
     public static int countSetBits(int num) {
         int count = 0;
@@ -11,7 +11,7 @@ public class SumBitDifferences {
         return count;
     }
 
-    public static int sumBitDifferences(int[] arr) {
+    public static int SumBitDifferences(int[] arr) {
         int n = arr.length;
         int total = 0;
 
@@ -25,7 +25,7 @@ public class SumBitDifferences {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2, 3, 4};
-        System.out.println(sumBitDifferences(arr));
+        int[] arr = { 2, 3, 4 };
+        System.out.println(SumBitDifferences(arr));
     }
 }
