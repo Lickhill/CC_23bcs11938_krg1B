@@ -1,3 +1,5 @@
+package exp6;
+
 import java.util.*;
 
 class Edge {

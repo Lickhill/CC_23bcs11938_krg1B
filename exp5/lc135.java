@@ -1,9 +1,11 @@
+package exp5;
+
 class lc135 {
     public int candy(int[] arr) {
         int n = arr.length;
         int ans = 0;
         int[] c = new int[n];
-        Arrays.fill(c,1);
+        Arrays.fill(c, 1);
         for (int i = 1; i < n; i++)
             if (arr[i] > arr[i - 1])
                 c[i] = c[i - 1] + 1;

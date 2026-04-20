@@ -1,3 +1,5 @@
+package exp2;
+
 import java.util.*;
 
 public class DFSgraph {
@@ -5,7 +7,8 @@ public class DFSgraph {
         visited[v] = true;
         System.out.print(v + " ");
         for (int n : adj.get(v)) {
-            if (!visited[n]) dfs(n, visited, adj);
+            if (!visited[n])
+                dfs(n, visited, adj);
         }
     }
 
@@ -16,7 +19,8 @@ public class DFSgraph {
         int edges = sc.nextInt();
 
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-        for (int i = 0; i < vertices; i++) adj.add(new ArrayList<>());
+        for (int i = 0; i < vertices; i++)
+            adj.add(new ArrayList<>());
 
         for (int i = 0; i < edges; i++) {
             int u = sc.nextInt();

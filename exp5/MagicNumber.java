@@ -1,4 +1,5 @@
-package CC_23bcs11938_krg1B;
+package exp5;
+
 class MagicalNumber {
 
     static long gcd(long a, long b) {

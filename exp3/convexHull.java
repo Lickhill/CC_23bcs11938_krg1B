@@ -1,3 +1,5 @@
+package exp3;
+
 import java.util.*;
 
 class Point {
